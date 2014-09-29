@@ -1,0 +1,185 @@
+ <!--By Phillip Ly -->
+ <!--9/28/2014 -->
+ <!--Main.dwt -->
+ <!--Please visit the link in the comment below to see the published website -->
+<!--http://philliply.collegesamplesite.x10host.com/ -->
+
+
+<!--Starts of the actual HTML codes of the website -->
+  <!doctype html>
+  
+  <html>
+  
+      <head>
+      
+      <meta name="robots" content="INDEX, FOLLOW" />
+      <meta name="robots" content="noimageindex">
+      
+          <script src="../js/jquery.js" type="text/javascript"></script>
+      
+      <!-- TemplateBeginEditable name="doctitle" -->
+      <title>The College Project by Phillip Ly</title>
+      <!-- TemplateEndEditable -->
+      <link href="../css/style.css" rel="stylesheet" type="text/css" media="screen">
+          <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,500,300italic,400italic' rel='stylesheet' type='text/css'>
+          <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,700' rel='stylesheet' type='text/css'>
+            
+          
+          <!-- TemplateBeginEditable name="head" -->
+          <!-- TemplateEndEditable -->
+          
+          
+      <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+      <!-- use jssor.slider.mini.js (40KB) or jssor.sliderc.mini.js (32KB, with caption, no slideshow) or jssor.sliders.mini.js (28KB, no caption, no slideshow) instead for release -->
+      <!-- jssor.slider.mini.js = jssor.sliderc.mini.js = jssor.sliders.mini.js = (jssor.core.js + jssor.utils.js + jssor.slider.js) -->
+      <script type="text/javascript" src="../js/jssor.core.js"></script>
+      <script type="text/javascript" src="../js/jssor.utils.js"></script>
+      <script type="text/javascript" src="../js/jssor.slider.js"></script>
+      <script>
+  
+          jQuery(document).ready(function ($) {
+              var options = {
+  
+                    $AutoPlay: true,                     //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                  $DragOrientation: 3                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+              };
+  
+              var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+          });
+      </script>
+        
+               
+          
+      </head>
+      
+      <body>
+      <div id="wrapper">
+      
+      <div id="top">
+              <div id="logo">
+                  <img src="../images/6264405316_4e69e1dfd2.jpg"> 
+              </div>
+              <div id="social-media">
+              <p> For Additional Information<br>Please Call 777.777.7777</p>
+              <ul>
+                  <li><a href="http://www.facebook.com"><img src="../images/facebook_32.png"></a></li>
+                  <li><a href="http://www.twitter.com"><img src="../images/twitter_32.png"></a></li>
+                  <li><a href="http://www.google.com"><img src="../images/rss_32.png"></a></li>
+                  <li><a href="http://www.yelp.com"><img src="../images/yelp_32.png"></a></li>
+                  <li><a href="http://www.linkedin.com/in/phillipdly"><img src="../images/linkedin_32.png"></a></li>
+                  <li><a href="http://www.youtube.com"><img src="../images/youtube_32.png"></a></li>
+                  
+              </ul>
+              </div>
+              
+      </div>
+          
+          <div id="topnav">
+              <ul>
+              
+                  <li><a ref="#">About</a></li> 
+                  <li><a ref="#">Admissions</a></li>
+                  <li><a ref="#">Academics</a></li>
+                  <li><a ref="#">Class Schedule</a></li>
+                  <li><a ref="#">Calendars</a></li>
+                  <li><a ref="#">Student Services</a></li>
+                  <li><a ref="#">FAQs</a></li>
+  				
+              </ul>
+          </div>
+          
+          <div id="banner">
+       
+      <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 900px;
+          height: 300px;">
+          <!-- Slides Container -->
+          <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 900px; height: 300px;
+              overflow: hidden;">
+              <div><img u="image" src="../images/331742_10151378603531418_1567128716_o.jpg" /></div>
+              <div><img u="image" src="../images/banner2.jpg"/></div>
+              <div><img u="image" src="../images/banner4.jpg"/></div>
+              <div><img u="image" src="../images/banner5.jpg"/></div>
+          
+          </div>
+          <a style="display: none" href="http://www.jssor.com">responsive carousel</a>
+      </div>
+              
+              
+          </div>
+          
+          <div id="content-wrapper">
+          
+          </div>
+              <div id="content">
+              
+              <!-- TemplateBeginEditable name="content" -->
+              
+                         
+                <h1> Welcome to College</h1>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium nunc eget mi 
+                  pellentesque vel adipiscing orci tempus. In dapibus porta feugiat. Vestibulum dignissim lorem 
+                  tortor. Donec eleifend pharetra velit, ac euismod nunc porta ac. Aliquam est mauris, cursus sit 
+                  amet facilisis nec, euismod in elit. Integer eu pharetra odio. Proin dictum urna non nibh adipiscing 
+                  laoreet at a dolor. Quisque varius lacus vitae neque accumsan nec tempus quam ullam corper.</p>
+                <h2>This is a subheading on the page</h2>
+                <p> Phasellus pretium nunc eget mi pellentesque vel adipiscing orci tempus. In dapibus porta 
+                  feugiat. Vestibulum dignissim lorem tortor. Donec eleifend pharetra velit, ac euismod nunc porta 
+                  ac. Aliquam est mauris, cursus sit amet facilisis nec, euismod in elit. Integer eu pharetra odio. 
+                  Proin dictum  non nibh adipiscing laoreet at a dolor. Quisque varius lacus vitae neque accumsan 
+                  nec tempus quam ullam corper.
+                                       
+                <h2> Another Subheading on the Page</h2>
+                   <img src="../images/wireframe.jpg" width="311" height="194" class="img-right"></p>
+                  <p>Vestibulum dignissim lorem tortor. Donec eleifend pharetra velit, ac euismod nunc porta ac. Aliquam 
+                   est mauris, cursus sit amet facilisis nec, euismod in elit.Proin dictum urna non nibh adipiscing laoreet
+                   ullamcorper.  Aliquam est mauris, cursus sit amet facilisis nec, euismod in elit. Integer eu pharetra odio. 
+                  Proin dictum  non nibh adipiscing laoreet at a dolor. Quisque varius lacus vitae neque accumsan 
+                nec.</p>
+                   <p>&nbsp;</p>  
+                  
+                         
+                  <div id="box1">
+                      <img src="../images/Thumbnail2.jpg" width="263" height="174">
+                    <h2> Subheading Item</h2>
+                       <p> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam.</p>
+                       
+                </div>
+                  
+                <div id="box2">
+                      <img src="../images/Thumbnail3.jpg" width="265">
+                  <h2> Subheading Item</h2>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam.</p>
+                  </div>
+            
+            
+            <!-- TemplateEndEditable -->                                       
+        </div> 
+                 
+                     
+        <div id="rightside">
+                  <h2>Sidebar Heading</h2> 
+                  <p> Tesque habitant habitant habitant morbi tristique senectus morbi tristique senectus et netus et           
+                  malesuada morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+            <img src="../images/Thumbnail4.jpg" width="269" height="191">
+            <p>Senectus et netus habitant morbi tristique senectus et netus et malesuada et malesuada fames ac 
+            turpis egestas. </p>
+                  <h2>Sidebar Heading</h2>
+                  <ul>
+                      <li>Campus News</li>
+                      <li>Athletics Updates</li>
+                      <li>Fine Art Events</li>
+                      <li>Campus Maps</li>
+                      <li>Contact Us</li>
+                  </ul>
+              </div>    
+          
+          <div id="footer">
+                 <p>&copy;Copyright 2014 &bull; All Rights Reserved &bull; Company Name 1234 Fullerton Street Fullerton California 93425 &bull;
+            555.555.5555 </p>
+                 <p>	Website Designed by Phillip Ly </p>
+          </div>
+      </div>
+      </body>
+  
+  
+  </html>
